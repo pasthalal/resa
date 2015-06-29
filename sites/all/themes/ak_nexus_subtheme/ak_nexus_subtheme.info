@@ -1,0 +1,5 @@
+name = ak_nexus_subtheme
+description = subtheme for nexus
+core = 7.x
+base theme = nexus 
+stylesheets[all][] = ak_nexus_subtheme.css
