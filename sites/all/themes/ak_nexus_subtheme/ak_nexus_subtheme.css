@@ -4,4 +4,20 @@ h2{background-color: ; }
 p{font-size: 16px
 }
 #footer-block{background-color: #333;
-padding: 100px}
+padding: 70px}
+
+.field-label{display:none;}
+#site-title{display:none;}
+.col-sm-12{font-size: xx-small;}
+
+.col-sm-6.mainmenu{width:70%; }
+#logo{width:30%;}
+#main-menu{margin-top:102px;}
+.doverlay{z-index: 0;}
+.flex-caption {
+    background-color: black;
+    border-radius: 22px;
+    opacity: 0.6;
+}
+
+ul.links.inline {display: none;}

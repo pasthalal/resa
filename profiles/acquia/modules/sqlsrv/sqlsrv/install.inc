@@ -16,15 +16,8 @@ class DatabaseTasks_sqlsrv extends DatabaseTasks {
     $this->tasks = array();
 
     // Create the user-defined functions we need to be Drupal friendly.
-    $this->tasks[] = array(
-      'function' => 'initializeDatabase',
-      'arguments' => array(),
-    );
-  }
-
-  /**
-   * Make SQL Server Drupal friendly.
-   */
+    //Make SQL Server Drupal friendly.
+   
   function initializeDatabase() {
     $database = Database::getConnection();
     $database->bypassQueryPreprocess = TRUE;
